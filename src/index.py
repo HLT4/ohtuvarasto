@@ -41,11 +41,13 @@ def main():
     mehua.lisaa_varastoon(-666.0)
     print(f"Mehuvarasto: {mehua}")
 
+
     print(f"Olutvarasto: {olutta}")
     print("olutta.ota_varastosta(1000.0)")
     saatiin = olutta.ota_varastosta(1000.0)
     print(f"saatiin {saatiin}")
     print(f"Olutvarasto: {olutta}")
+
 
     print(f"Mehuvarasto: {mehua}")
     print("mehua.otaVarastosta(-32.9)")
