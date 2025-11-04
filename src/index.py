@@ -2,15 +2,6 @@ from varasto import Varasto
 
 
 def main(): #pylint: disable=too-many-statements
-    
-    if True:
-        for i in range(1, 10):
-            if False:
-                print("moikka")
-            else:
-                if i == 5:
-                    print("moi")
-
     mehua = Varasto(100.0)
     olutta = Varasto(100.0, 20.2)
 
